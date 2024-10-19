@@ -1,0 +1,128 @@
+#check {
+    display: none;
+}
+
+#check:checked~.navbar{
+    ul {
+        display: block;
+    }
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    ul{a{
+        text-decoration: none;
+    }   font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        list-style: none;
+
+        
+    }
+    h1{
+        img{
+            filter: contrast(1.1);
+            filter: drop-shadow(2);
+            width: 20vw;
+        }
+    }
+
+}
+.navbar label{
+    display: none;
+    
+}
+
+@media screen and (max-width:700px){
+    .navbar label{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+    }
+    
+    
+}
+.painting1{
+   
+    img{
+        width: 10vw;
+    }
+}
+.pp{
+    display: flex;
+}
+.foorm{
+    align-items: center;
+    justify-content: center;
+    input{
+        margin-top: 1vw;
+        margin-left: 2vw;
+        width: 50vw;
+        font: 1em sans-serif;
+        font-size: 2vw;
+        align-items: center;
+    }
+}.footer{
+    background-color: #474747;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+          .one{ 
+           ul{
+               color: rgb(255, 255, 255);
+               list-style: square;
+               font-size: 1.5vw;
+               font-family: Arial, Helvetica, sans-serif;
+              
+           }}
+           .two{ 
+               ul{
+                   color: rgb(255, 255, 255);
+                   list-style: square;
+                   font-size: 1.5vw;
+                   font-family: Arial, Helvetica, sans-serif;
+                  
+               }
+   
+         }
+         .three{ 
+           ul{
+               color: rgb(255, 255, 255);
+               list-style: square;
+               font-size: 1.5vw;
+               font-family: Arial, Helvetica, sans-serif;
+              
+           }
+       }
+       .four{ 
+        
+               color: rgb(255, 255, 255);
+               list-style: square;
+               font-size: 1vw;
+               font-family: Arial, Helvetica, sans-serif;
+              
+           
+   
+   }
+   }
+   .foorm{
+      button{margin-left: 20vw;
+        font-size: 5vw;
+        border-radius: 10px;
+        color: #ffffff;
+        background-color: rgb(0, 255, 255);
+       
+            text-decoration: none;
+            color: #000;
+             font-family: Arial, Helvetica, sans-serif;
+
+       
+
+    }
+   }
